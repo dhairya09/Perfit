@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_congrats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Congratulations on finishing the process."
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:textStyle="bold"
+        android:text="We will notify you when your 3D model has been generated."
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:textStyle="bold"
+        android:text="Once you have your 3D model you can try clothes from our partner brands."
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_mod"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>

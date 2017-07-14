@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo"
+        android:id="@+id/imageView2"
+        android:layout_weight="0.15"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/white"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/fname"
+        android:textSize="20dp"
+        android:focusable="true"
+
+        android:layout_marginTop = "26dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+
+        android:layout_gravity="center_horizontal"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Height(cm)"
+        android:ems="10"
+        android:id="@+id/height"
+        android:textSize="20dp"
+        android:focusable="true"
+
+        android:layout_marginTop = "0dp"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+
+        android:layout_gravity="center_horizontal"
+        />
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp">
+
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Female" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:text="Next"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/signup"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:elevation="13dp"
+        android:textSize="25dp"
+        android:background="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="15dp"
+        android:onClick="nextclick"
+
+
+        />
+
+
+</LinearLayout>

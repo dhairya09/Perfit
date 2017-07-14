@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhairyapujara.perfit_submit">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".CaptureActivity" />
+        <activity android:name=".CaptureActivityNew"/>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".userinfo" />
+        <activity android:name=".nextscreen" />
+        <activity android:name=".OrientationActivity" />
+        <activity android:name=".SnapshotActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VideoPlayerActivity" />
+        <activity android:name=".Front_Activity" />
+        <activity android:name=".Left_Activity" />
+        <activity android:name=".Back_Activity" />
+        <activity android:name=".SignupFollowup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Display_Images">
+
+
+
+        </activity>
+        <activity android:name=".Congrats" />
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".Michael">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

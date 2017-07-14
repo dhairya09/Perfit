@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk1"
+                    android:id="@+id/imageView5"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk4"
+                    android:id="@+id/imageView4" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk1"
+                    android:id="@+id/imageView3" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk1"
+                    android:id="@+id/imageView2" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk1"
+                    android:id="@+id/imageView1" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+
+                <ImageView
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+
+                    app:srcCompat="@drawable/mk1"
+                    android:id="@+id/imageView" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#a9a9a9"/>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="304dp">
+
+        <include layout="@layout/activity_main"/>
+            </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading"
+            android:padding="10dp"
+
+            android:textColor="#00008B"
+            android:textSize="20dp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Details"
+            android:layout_weight="3.21"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

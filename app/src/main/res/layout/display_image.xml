@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="100dp"
+            android:layout_weight="50"
+            android:layout_height="170dp" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:layout_weight="50"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="100dp"
+            android:layout_weight="50"
+            android:layout_height="170dp" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:layout_weight="50"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Is your entire body on screen with nothing blocking you?"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/radioChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+
+            <RadioButton
+                android:id="@+id/yesche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes"/>
+
+            <RadioButton
+                android:id="@+id/noche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="No"/>
+
+
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Submit"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+</LinearLayout>

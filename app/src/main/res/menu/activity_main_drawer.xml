@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/dglogo"
+            android:title="Dolce Gabbana" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/guccilogo"
+            android:title="Gucci" />
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/macyslogo"
+            android:title="Macys" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_menu4"-->
+            <!--android:icon="@drawable/ck"-->
+            <!--android:title="Calvin Klein" />-->
+
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@drawable/mk"
+            android:title="Michael Kors" />
+
+    </group>
+
+
+</menu>

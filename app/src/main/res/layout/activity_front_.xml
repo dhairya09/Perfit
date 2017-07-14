@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VideoPlayerActivity" >
+
+    <fragment
+        android:id="@+id/fragment_frontface"
+        class = "com.mobile.android.perfit.fragments.FrontFaceFragment"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        tools:layout="@layout/fragment_front_face" />
+
+
+
+</LinearLayout>
